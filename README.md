@@ -95,18 +95,12 @@ larger than or equal to the shortlisting probability defined for the given condi
 and job. If no shortlisting is conducted, the flow proceeds by checking the number 
 of shortlisted candidates, continuing the execution from there.
 
-### Limitations and Future Works
+### Limitations
 
 The approach has limitations. First, shortlist timestamps are artificially created 
-using the rules presented in the previous section. Here, the experimentation platform 
-will be adjusted to store this information, and additional rounds of experiments 
-are planned to be conducted to collect the missing information. Second, logistic 
+using the rules presented in the previous section. Second, logistic 
 regression models used to decide which candidate to select in a given shortlisting 
-or expansion situation weakly adjust the data in some conditions. This situation 
-is planned to be improved by conducting feature selection before fitting the models, 
-removing independent variables that might be adding noise and are not statistically 
-relevant for adjusting the data. Also, more experiment rounds might be conducted 
-to collect more data that can help to improve the model performance.
+or expansion situation weakly adjust the data in some conditions.
 
 ### Dataset of Synthetic Interactions
 
