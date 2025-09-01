@@ -102,7 +102,7 @@ using the rules presented in the previous section. Second, logistic
 regression models used to decide which candidate to select in a given shortlisting 
 or expansion situation weakly adjust the data in some conditions.
 
-### Dataset of Synthetic Interactions
+## Dataset of Synthetic Interactions
 
 Using the procedure presented in the previous sections, a dataset of 1,200 synthetic 
 interactions was generated, including approximately five interaction sequences per 
