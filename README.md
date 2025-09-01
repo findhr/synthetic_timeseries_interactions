@@ -1,13 +1,6 @@
-# Interaction Time Series
+# Synthetic Time Series Interactions
 
-This repository contains the source code of the software tools (`src/experiment`) 
-used to support the design and execution of an experiment to study *how the 
-outcomes of job applicants can be affected by ranking algorithms, user interfaces, 
-and environmental factors*. 
-
-Also, it includes the source of the tool (`src/synthetic_data_generator`) employed 
-to generate the synthetic dataset of interactions. Output of the synthetic data
-generator is located inside the directory `gen_output`.
+This repository contains the source code of the software employed to generate the synthetic dataset of interactions.
 
 ## Synthetic Interactions Generation
 
@@ -117,14 +110,8 @@ to collect more data that can help to improve the model performance.
 
 ### Dataset of Synthetic Interactions
 
-Using the procedure presented in the previous sections, a dataset of 1200 synthetic 
+Using the procedure presented in the previous sections, a dataset of 1,200 synthetic 
 interactions was generated, including approximately five interaction sequences per 
-each combination of conditions and jobs. The synthetic dataset can be found at `gen_output/findhr-synthetic_interactions.zip`. 
-The dataset is compressed as a zip file containing a JSON file including the synthetic 
-interactions, two CSV files with the probabilities for the decision steps 2 and 5, 
+each combination of conditions and jobs. The dataset is compressed as a zip file containing a JSON file including the synthetic interactions, two CSV files with the probabilities for the decision steps 2 and 5, 
 and two CSV files containing information about the logistic regression models used 
 in steps 3 and 4.
-
-Future versions of the dataset will include improvements to the limitations discussed 
-previously. The final version of the dataset will be available for researchers in 
-established EU academic institutions under a license agreement.
